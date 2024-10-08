@@ -1,4 +1,6 @@
 package octexam;
 
-public interface iTerminateAble {
+public interface iTerminateAble{
+
+
 }

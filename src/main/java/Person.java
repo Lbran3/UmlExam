@@ -6,11 +6,12 @@ public abstract class Person {
         public Person(String name, int size){
             this.name = name;
             this.size = size;
+
         }
 
 
     }
 
-    //public void printInfo() {
+     //public abstract void printInfo();
 
  //   }

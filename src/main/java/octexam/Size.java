@@ -1,17 +1,28 @@
 package octexam;
 
 public enum Size {
-    Small,
-    Medium,
-    Large,
-    ;
 
-    private final int clothingSizes;
+    S, M, L;
 
-    Size(int clothingSizes) {
-        this.clothingSizes = clothingSizes;
-    }
-    public int getClothingSizes(){
-        return clothingSizes;
+    public String getSize() {
+        switch (this) {
+            case S:
+                return "small";
+
+            case M:
+                return "medium";
+
+            case L:
+                return "large";
+
+            default:
+                return null;
+        }
+
     }
 }
+
+
+
+
+
